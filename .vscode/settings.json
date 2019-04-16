@@ -1,0 +1,38 @@
+{
+  "prettier.flattenTernaries": true,
+  "editor.formatOnSave": true,
+
+  "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript"],
+
+  "bracket-pair-colorizer-2.colors": ["Gold", "Orchid", "LightSkyBlue"],
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+  "bracket-pair-colorizer-2.forceIterationColorCycle": true,
+
+  "bracketPairColorizer.consecutivePairColors": [
+    ["<", "</"],
+    ["<", "/>"],
+    [
+      "Gold",
+      "Orchid",
+      "orange",
+      "white",
+      "brown",
+      "silver",
+      "Blue",
+      "olivedrab",
+      "tan"
+    ],
+    "Red"
+  ],
+
+  "bracket-pair-colorizer-2.activeScopeCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {color}",
+    "opacity: 0.5"
+  ],
+
+  "key": "shift+alt+right",
+  "command": "bracket-pair-colorizer.expandBracketSelection",
+  "when": "editorTextFocus"
+}
