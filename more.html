@@ -11,6 +11,7 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="status-bar">
@@ -21,8 +22,8 @@
         <i class="fas fa-clock"></i>
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
-        <i class="fas fa-battery-full"></i>
         <span class="status-bar_battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
       </div>
     </div>
     <header class="header-index">
@@ -37,11 +38,87 @@
           <i class="fas fa-qrcode"></i>
         </span>
         <span class="header-icon">
-          <i class="fas fa-cog"></i>
+          <a href="setthing.html">
+            <i class="fas fa-cog"></i>
+          </a>
         </span>
       </div>
     </header>
-    <!-- Basic Phone Impormation Icon and Text in top -->
+    <!-- [Basic Phone Impormation Icon and Text in top] -->
+
+    <mian class="more">
+      <header class="more_header">
+        <div class="friends_friend friend friend-lg">
+          <!--Making My Profile-->
+          <div class="friend_column">
+            <img
+              src="images/avatar.jpg"
+              alt=""
+              class="g-avatar friend_avatar"
+            />
+            <div class="friend_content">
+              <span class="friend_name">
+                guzelly
+              </span>
+              <span class="fiend_status">
+                gandalfzzing@gmail.com
+              </span>
+            </div>
+          </div>
+          <!--Making More Top BTN-->
+          <div class="friend_column">
+            <i class="far fa-comment-alt fa-2x"></i>
+          </div>
+        </div>
+        <ul class="more_btn-list">
+          <li class="more_btn">
+            <span class="more_btn-icon">
+              <i class="far fa-smile fa-2x"></i>
+            </span>
+            <span class="more_btn-title">
+              Emotiocons
+            </span>
+          </li>
+          <li class="more_btn">
+            <span class="more_btn-icon"></span>
+            <i class="fas fa-brush fa-2x"></i>
+            <span class="more_btn-title"> Themes </span>
+          </li>
+          <li class="more_btn">
+            <span class="more_btn-icon"></span>
+            <i class="fab fa-kickstarter-k fa-2x"> </i>
+            <span class="more_btn-title">
+              Account
+            </span>
+          </li>
+        </ul>
+      </header>
+      <section class="more_suggestions">
+        <!--Making Bottom Image Icon btn-->
+        <h5 class="more_suggerstions-title">
+          suggertion
+        </h5>
+        <ul class="more_suggertions-list">
+          <li class="more_suggertions suggertion">
+            <img src="images/1.jpg" alt="" class="suggertion_icon" />
+            <span class="suggertion_title"> Kakao Story </span>
+          </li>
+          <li class="more_suggertions suggertion">
+            <img src="images/2.jpg" alt="" class="suggertion_icon" />
+            <span class="suggertion_title">
+              Kakao Friends
+            </span>
+          </li>
+          <li class="more_suggertions suggertion">
+            <img src="images/3.jpg" alt="" class="suggertion_icon" />
+            <span class="suggertion_title">
+              Friends Game
+            </span>
+          </li>
+        </ul>
+      </section>
+    </mian>
+    <!--[more scrren Icon and Text List]-->
     <nav class="nav">
       <ul class="nav_list">
         <li class="nav_list-item">
@@ -66,6 +143,6 @@
         </li>
       </ul>
     </nav>
-    <!--Basic Kakao App bottom Icons and if On click Icon move to other Page-->
+    <!--[Basic Kakao App bottom Icons and if On click Icon move to other Page]-->
   </body>
 </html>

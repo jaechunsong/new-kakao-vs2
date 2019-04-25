@@ -11,6 +11,7 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="status-bar">
@@ -21,8 +22,8 @@
         <i class="fas fa-clock"></i>
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
-        <i class="fas fa-battery-full"></i>
         <span class="status-bar_battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
       </div>
     </div>
     <header class="header-index">
@@ -38,7 +39,66 @@
         </span>
       </div>
     </header>
-    <!-- Basic Phone Impormation Icon and Text in top -->
+    <!-- [Basic Phone Impormation Icon and Text in top] -->
+    <main class="find">
+      <header class="find_header">
+        <!--Making Find Top iCons-->
+        <ul class="find_header-list">
+          <li class="find_header-btn header-btn">
+            <span class="header-btn_icon">
+              <i class="fas fa-qrcode fa-2x"></i>
+              <span class="header-btn_title">
+                QR Code
+              </span>
+            </span>
+            <span class="header-btn_icon">
+              <i class="fas fa-user-plus fa-2x"></i>
+              <span class="header-btn_title">
+                Add By Contacts
+              </span>
+            </span>
+            <span class="header-btn_icon">
+              <i class="fas fa-passport fa-2x"></i>
+              <span class="header-btn_title">
+                Add by Id
+              </span>
+            </span>
+            <span class="header-btn_icon">
+              <i class="far fa-envelope fa-2x"></i>
+              <span class="header-btn_title">
+                Invite
+              </span>
+            </span>
+          </li>
+        </ul>
+      </header>
+      <ul class="find_recommended">
+        <!--Making Plus Friends Screen-->
+        <h4 class="find_title">
+          Recommended Friends
+        </h4>
+        <li class="find_friend find-friend">
+          <div class="friend_column">
+            <img
+              src="images/profilepic.jpg"
+              alt=""
+              class="g-avatar friend_avatar"
+            />
+            <div class="chat_content">
+              <span class="friend_name">
+                Guzel
+              </span>
+            </div>
+          </div>
+          <div class="friend_column">
+            <div class="friend_add-btn">
+              <i class="fas fa-user-plus"></i>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <!--[Find scrren Icon and Text List]-->
     <nav class="nav">
       <ul class="nav_list">
         <li class="nav_list-item">
@@ -63,6 +123,6 @@
         </li>
       </ul>
     </nav>
-    <!--Basic Kakao App bottom Icons and if On click Icon move to other Page-->
+    <!--[Basic Kakao App bottom Icons and if On click Icon move to other Page]-->
   </body>
 </html>

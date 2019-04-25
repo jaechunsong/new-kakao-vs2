@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Cute+Font&subset=korean");
+@import "reset.css";
+@import "normalize.css";
+@import "status-bar.css";
+@import "header.css";
+@import "nav.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  padding: 10px 20px;
+  color: #020202;
+  font-family: "Cute Font", cursive;
+  height: 1500px;
+}
+
+a {
+  color: inherit;
+}

@@ -1,0 +1,51 @@
+.header-index {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.header-index .header_title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.header-index .header-icon {
+  padding-left: 25px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.header-icon-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_text {
+  font-size: 35px;
+  display: inline-flex;
+  margin-right: 570px;
+  margin-left: 15px;
+}
+
+.header-icon-chat {
+  padding-left: 35px;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_text-chat {
+  font-size: 35px;
+  display: inline-flex;
+  margin-right: 570px;
+  margin-left: 15px;
+}
+
+.header-icon-set {
+  padding-left: 55px;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}

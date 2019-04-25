@@ -11,6 +11,7 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="status-bar">
@@ -21,8 +22,8 @@
         <i class="fas fa-clock"></i>
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
-        <i class="fas fa-battery-full"></i>
         <span class="status-bar_battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
       </div>
     </div>
     <header class="header-index">
@@ -41,28 +42,35 @@
         </span>
       </div>
     </header>
+    <!-- [Basic Phone Impormation Icon and Text in top] -->
     <main class="chats">
       <ul class="chats_list">
         <li class="chats_chat">
           <div class="chat_column">
-              <img src="images/avatar.jpg" alt="Image file" class="chat_avatar">
-            <div class="chat_content">
-              <span class="chat_username">
-                Guzel
-              </span>
-              <span class="chat_preview">
-                going home
-              </span>
+            <a href="chat.html" class="chats_chat">
+              <img
+                src="images/profilepic.jpg"
+                alt="Image file"
+                class="chat_avatar g-avatar"
+              />
+              <div class="chat_content">
+                <span class="chat_username">
+                  Guzel
+                </span>
+                <span class="chat_preview">
+                  going home
+                </span>
               </div>
-            </div>
+            </a>
           </div>
           <div class="chat_column">
-          <span class="chat_timestamp">Yesterday</span>
-        </div>
+            <span class="chat_timestamp">Yesterday</span>
+          </div>
         </li>
       </ul>
     </main>
-    <!-- Basic Phone Impormation Icon and Text in top -->
+    <!--[Chats scrren Icon and Text List]-->
+
     <nav class="nav">
       <ul class="nav_list">
         <li class="nav_list-item">
@@ -87,6 +95,6 @@
         </li>
       </ul>
     </nav>
-    <!--Basic Kakao App bottom Icons and if On click Icon move to other Page-->
+    <!--[Basic Kakao App bottom Icons and if On click Icon move to other Page]-->
   </body>
 </html>

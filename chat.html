@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chats | kakao clone</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar_column">
+        <span class="spanstaus-bar_clock">13:54</span>
+      </div>
+      <div class="status-bar_column">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar_battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    <header class="header-index">
+      <div class="header_bottom">
+        <div class="header-icon-column">
+          <a href="index.html" class="header_back-btn">
+            <i class="fas fa-arrow-left"></i>
+          </a>
+          <div class="header_text-chat">Guzel</div>
+          <span class="header-icon-chat">
+            <i class="fa fa-search"></i>
+          </span>
+          <span class="header-icon-chat">
+            <i class="fa fa-bars"></i>
+          </span>
+        </div>
+      </div>
+    </header>
+    <main class="chat">
+      <div class="date-divider">
+        <span class="date-divider_text">Wednesday, August 2, 2017</span>
+      </div>
+      <div class="chat_message chat_message-from-me">
+        <span class="chat_message-time">17:55</span>
+        <span class="chat_message-text">Hello! This is a test message</span>
+      </div>
+      <div class="chat_message chat_message-meesage-to">
+        <img src="images/avatar.jpg" class="chat_message-avatar" />
+        <div class="chat_message-center">
+          <h3 class="chat_message-user">Guzel</h3>
+          <span class="chat_message-text">And This is answer</span>
+          <span class="chat_message-time">19:35</span>
+        </div>
+      </div>
+    </main>
+    <!--나의 메세지와 친구의 사진과 메세지를 추가합니다.-->
+    <div class="type_meesage">
+      <i class="fa fa-plus fa-lg"></i>
+      <div class="type_meesage-input">
+        <input type="text" />
+        <i class="fa fa-smile-o"></i>
+        <span class="record-message">
+          <i class="fa fa-microphone fa-lg"></i>
+        </span>
+      </div>
+
+      <div class="big-screen-text">
+        <span>Plase make ur screen small</span>
+      </div>
+    </div>
+  </body>
+</html>
+<!--전송할 입력창과 부가 아이콘들을 생성합니다-->
