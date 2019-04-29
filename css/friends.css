@@ -1,0 +1,26 @@
+.friends_plus {
+  padding: 20px 0px;
+  border-bottom: 1px solid #f7f7f7;
+  border-top: 1px solid #f7f7f7;
+  margin: 20px 0px;
+}
+
+.friends_title {
+  font-size: 20px;
+  color: #c0c0c0;
+}
+
+.friend_now-listening {
+  border: 1px solid #5aad77;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.music_name {
+  opacity: 0.6;
+}
+
+.fa.fa-play {
+  font-size: 10px;
+  color: #5aad77;
+}

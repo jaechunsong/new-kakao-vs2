@@ -1,0 +1,35 @@
+.find_header-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.find_header-btn {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-btn_title {
+  display: block;
+}
+
+.find_title {
+  border-top: 1px solid #dbdbdb;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  opacity: 0.7;
+}
+
+.header-btn_icon {
+  font-size: 13px;
+}
+
+.friend_add-btn {
+  padding: 15px;
+  background-color: #c0c0c0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}

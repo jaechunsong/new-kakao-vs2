@@ -28,7 +28,7 @@
     </div>
     <header class="header-index">
       <div class="header_header-column">
-        <h1 class="header_title">Chats</h1>
+        <span class="header_title">Chats</span>
       </div>
       <div class="header_header-column">
         <span class="header-icon">
@@ -38,33 +38,45 @@
           <i class="far fa-comment"></i>
         </span>
         <span class="header-icon">
-          <i class="fas fa-cog"></i>
+          <a href="setthing.html">
+            <i class="fas fa-cog"></i>
+          </a>
         </span>
       </div>
     </header>
+
     <!-- [Basic Phone Impormation Icon and Text in top] -->
     <main class="chats">
       <ul class="chats_list">
-        <li class="chats_chat">
-          <div class="chat_column">
-            <a href="chat.html" class="chats_chat">
+        <li class="chats_chat friends_friend friend friend-lg">
+          <div class="friend_column">
+            <a href="chat.html">
               <img
-                src="images/profilepic.jpg"
-                alt="Image file"
-                class="chat_avatar g-avatar"
+                src="images/avatar.jpg"
+                alt=""
+                class="g-avatar friend_avatar"
               />
-              <div class="chat_content">
-                <span class="chat_username">
-                  Guzel
+            </a>
+            <a href="chat.html" class="">
+              <div class="friend_content">
+                <span class="friend_name">
+                  guzel
                 </span>
-                <span class="chat_preview">
-                  going home
+                <span class="friend_bottom-text">
+                  And This is answer
                 </span>
               </div>
             </a>
           </div>
-          <div class="chat_column">
-            <span class="chat_timestamp">Yesterday</span>
+          <div class="friend_column-2">
+            <a href="chat.html">
+              <span class="chat_timestamp">
+                March 8
+              </span>
+              <span class="chat_messagenum">
+                1
+              </span>
+            </a>
           </div>
         </li>
       </ul>
@@ -80,6 +92,7 @@
         </li>
         <li class="nav_list-item">
           <a href="index.html" class="nav_list-link">
+            <div class="nav_badge">1</div>
             <i class="fas fa-comment"></i>
           </a>
         </li>

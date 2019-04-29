@@ -1,0 +1,39 @@
+#sething {
+  border-bottom: 1px solid #f7f7f7;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.settings_sections {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings_setting {
+  margin-bottom: 15px;
+}
+
+.header_text-chat {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.settings_icon {
+  font-size: 25px;
+  cursor: pointer;
+  padding-left: 2px;
+}
+
+.settings_title {
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+#sething_arrow {
+  font-size: 25px;
+}
+
+.settings_sections.new-sething_section {
+  border-top: 1px solid #f7f7f7;
+  padding-top: 20px;
+}
