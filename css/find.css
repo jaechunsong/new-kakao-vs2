@@ -32,4 +32,15 @@
   align-items: center;
   justify-content: center;
   border-radius: 5px;
+  animation: turns 1s linear forwards;
+  cursor: pointer;
+}
+
+@keyframes turns {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateX(1turn);
+  }
 }

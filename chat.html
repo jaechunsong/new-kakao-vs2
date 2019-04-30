@@ -32,7 +32,9 @@
           <a href="index.html" class="header_back-btn">
             <i class="fas fa-arrow-left"></i>
           </a>
-          <span class="header_text-chat">Guzel</span>
+          <span class="header_text-chat">
+            Guzel
+          </span>
         </div>
         <div class="header-icon-column">
           <span class="header-icon-chat">
@@ -46,23 +48,32 @@
         </div>
       </header>
     </header>
+
     <main class="chat">
-      <div class="date-divider">
-        <span class="date-divider_text">Wednesday, August 2, 2017</span>
+      <div class="chatt">
+        <div class="date-divider">
+          <span class="date-divider_text">
+            Wednesday, August 2, 2017
+          </span>
+        </div>
       </div>
       <ul class="incoming">
         <li class="incoming-message">
-          <div class="chat_message chat_message-from-me">
+          <div class="chat_message" id="chat_message-from-me">
             <span class="chat_message-time">17:55</span>
-            <span class="chat_message-text">Hello! This is a test message</span>
+            <span class="chat_message-text-me">
+              Hello! This is a test message
+            </span>
           </div>
-          <div class="chat_message chat_message-meesage-to">
+          <div class="chat_message-user">Guzel</div>
+          <div class="chat_message" id="chat_message-meesage-to">
             <img src="images/avatar.jpg" class="chat_message-avatar" />
-            <div class="chat_message-center">
-              <h3 class="chat_message-user">Guzel</h3>
-              <span class="chat_message-text">And This is answer</span>
-              <span class="chat_message-time">19:35</span>
-            </div>
+            <span class="chat_message-text-you">
+              And This is answer
+            </span>
+            <span class="chat_message-time">
+              19:35
+            </span>
           </div>
         </li>
       </ul>
@@ -70,8 +81,10 @@
 
     <!--나의 메세지와 친구의 사진과 메세지를 추가합니다.-->
     <div class="type_meesage">
-      <i class="far fa-plus-square"></i>
       <input type="text" placeholder="Send Message" class="chat_write-input" />
+
+      <i class="far fa-plus-square"></i>
+
       <div class="type_meesage-input">
         <span>
           <i class="far fa-smile"></i>
@@ -80,6 +93,9 @@
           <i class="fa fa-microphone"></i>
         </span>
       </div>
+    </div>
+    <div class="bigScreen">
+      <span class="bigScreen_text">Please dont make Big Size</span>
     </div>
   </body>
 </html>
